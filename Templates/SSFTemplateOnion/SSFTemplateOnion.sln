@@ -29,6 +29,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SSFTemplateOnion.EF.Queries
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{4C9D429C-4FB6-4B3C-B01B-42B1A58195C7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSFTemplateOnion.EndPoint.Api", "src\03-EndPoints\SSFTemplateOnion.EndPoint.Api\SSFTemplateOnion.EndPoint.Api.csproj", "{1D8ED15C-C00C-4AB5-AD7E-5740C7643B6C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -67,6 +69,10 @@ Global
 		{600A080F-340C-4150-959E-707A58E6CDCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{600A080F-340C-4150-959E-707A58E6CDCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{600A080F-340C-4150-959E-707A58E6CDCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D8ED15C-C00C-4AB5-AD7E-5740C7643B6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D8ED15C-C00C-4AB5-AD7E-5740C7643B6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D8ED15C-C00C-4AB5-AD7E-5740C7643B6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D8ED15C-C00C-4AB5-AD7E-5740C7643B6C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -83,6 +89,7 @@ Global
 		{CBA8333A-4A06-4E29-ACC3-9DCA80D27349} = {DC5C9ECC-7ABD-4B10-B14E-0D81F786A1AF}
 		{6ED50ED9-1C15-4745-9B4D-9755A08A59DA} = {DC5C9ECC-7ABD-4B10-B14E-0D81F786A1AF}
 		{600A080F-340C-4150-959E-707A58E6CDCD} = {DC5C9ECC-7ABD-4B10-B14E-0D81F786A1AF}
+		{1D8ED15C-C00C-4AB5-AD7E-5740C7643B6C} = {579C2D9C-D723-40F0-A7C7-F59BEBF8F7D5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BC6AFD13-7294-4ECD-A480-2CA51281183B}

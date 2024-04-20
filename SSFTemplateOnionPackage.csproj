@@ -8,7 +8,7 @@
       <PackageLicenseExpression>MIT</PackageLicenseExpression>
  
     <PackageType>Template</PackageType>
-    <PackageVersion>8.1.0</PackageVersion>
+    <PackageVersion>8.1.1</PackageVersion>
     <PackageId>SSFTemplateOnion.Solution.Templates</PackageId>
     <Title>SSFTemplateOnion</Title>
     <Authors>sajad khalili</Authors>
@@ -30,7 +30,11 @@
     <Compile Remove="**\*" />
   </ItemGroup>
 
-
+  <ItemGroup>
+   
+    <None Include="icon.png" Pack="true" PackagePath=""/>
+   
+  </ItemGroup>
 
 </Project>
 
