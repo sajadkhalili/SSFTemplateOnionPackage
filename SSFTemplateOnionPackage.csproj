@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+   
+      <PackageLicenseExpression>MIT</PackageLicenseExpression>
+ 
+    <PackageType>Template</PackageType>
+    <PackageVersion>8.1.0</PackageVersion>
+    <PackageId>SSFTemplateOnion.Solution.Templates</PackageId>
+    <Title>SSFTemplateOnion</Title>
+    <Authors>sajad khalili</Authors>
+    <Description>Templates to use when creating an application .</Description>
+    <PackageTags>dotnet-new;templates</PackageTags>
+
+    <PackageIcon>icon.png</PackageIcon>
+
+    <IncludeContentInPack>true</IncludeContentInPack>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <ContentTargetFolders>content</ContentTargetFolders>
+    <PackageProjectUrl>nuget.org</PackageProjectUrl>
+    <PackAsTool>True</PackAsTool>
+    <IncludeSymbols>True</IncludeSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="icon.png" Pack="true" PackagePath="" />
+    <Content Include="templates\**\*" Exclude="templates\**\bin\**;templates\**\obj\**" />
+    <Compile Remove="**\*" />
+  </ItemGroup>
+
+
+
+</Project>
+
+
+  
