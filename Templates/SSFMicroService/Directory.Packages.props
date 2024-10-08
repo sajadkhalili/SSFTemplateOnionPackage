@@ -1,0 +1,10 @@
+<Project>
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <CentralPackageTransitivePinningEnabled>true</CentralPackageTransitivePinningEnabled>
+    <Authors>Sajad Khalili , sara Arzhang </Authors>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageVersion Include="SSF.Domain" Version="1.0.9" />
+  </ItemGroup>
+</Project>

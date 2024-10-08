@@ -1,0 +1,14 @@
+﻿{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "sajad khalili",
+  "classifications": [ "Common", "Solution", "SSFTemplateOnion" ],
+  "identity": "SSFTemplateOnion.Default.SolutionTemplate.CSharp",
+  "name": "SSFTemplateOnion  Solution  Template",
+  "shortName": "SSFTemplateOnionsln",
+  "sourceName": "SSFTemplateOnion",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  }
+
+}

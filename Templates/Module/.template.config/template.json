@@ -1,0 +1,54 @@
+﻿{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "YourName",
+  "classifications": [ "Modular", "Architecture", "DDD", "CQRS" ],
+  "identity": "ModularApp.Template",
+  "name": "Modular Architecture Template",
+  "shortName": "modular-app",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "Module",
+  "preferNameDirectory": true,
+  "symbols": {
+    "ModuleName": {
+      "type": "parameter",
+      "description": "The name of the module",
+      "datatype": "string",
+      "replaces": "Module"
+    }
+  },
+  "sources": [
+    {
+      "modifiers": [
+        {
+          "condition": "(!IncludeApi)",
+          "exclude": [ "**/API/**" ]
+        }
+      ]
+    }
+  ],
+  "primaryOutputs": [
+    {
+      "path": "src/01-Core/Module.Domain"
+    },
+    {
+      "path": "src/01-Core/Module.Application"
+    },
+    {
+      "path": "src/02-Infra/Module.Infra"
+    }
+
+  ],
+  "postActions": [
+    {
+      "actionId": "9F2F9D5E-4C37-4A52-A6D5-52AAE0F617D6",
+      "description": "Restore NuGet packages",
+      "manualInstructions": [
+        { "text": "Run 'dotnet restore'" }
+      ],
+      "continueOnError": true
+    }
+  ]
+}

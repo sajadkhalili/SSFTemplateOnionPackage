@@ -9,8 +9,8 @@
  
     <PackageType>Template</PackageType>
     <PackageVersion>8.1.1</PackageVersion>
-    <PackageId>SSFTemplateOnion.Solution.Templates</PackageId>
-    <Title>SSFTemplateOnion</Title>
+    <PackageId>Module.Solution.Templates</PackageId>
+    <Title>Module</Title>
     <Authors>sajad khalili</Authors>
     <Description>Templates to use when creating an application .</Description>
     <PackageTags>dotnet-new;templates</PackageTags>

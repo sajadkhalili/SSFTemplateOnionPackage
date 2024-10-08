@@ -1,0 +1,11 @@
+<Project>
+  <PropertyGroup>
+
+    <!-- .Net Version -->
+    <DotNetVersion>net8.0</DotNetVersion>
+    <DotNetStandardVersion>netstandard2.1</DotNetStandardVersion>
+    <NoWarn>$(NoWarn);NETSDK1057</NoWarn>
+    <IsTestProject Condition="$(MSBuildProjectFullPath.Contains('test')) and ($(MSBuildProjectName.EndsWith('.Tests')) or $(MSBuildProjectName.EndsWith('.TestBase')))">true</IsTestProject>
+
+  </PropertyGroup>
+</Project>
