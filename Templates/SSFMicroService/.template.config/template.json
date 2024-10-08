@@ -4,8 +4,8 @@
   "classifications": [ "Common", "Solution", "SSFTemplateOnion" ],
   "identity": "SSFTemplateOnion.Default.SolutionTemplate.CSharp",
   "name": "SSFTemplateOnion  Solution  Template",
-  "shortName": "SSFTemplateOnionsln",
-  "sourceName": "SSFTemplateOnion",
+  "shortName": "MS-Onion",
+  "sourceName": "SSFMicroService",
   "tags": {
     "language": "C#",
     "type": "project"
