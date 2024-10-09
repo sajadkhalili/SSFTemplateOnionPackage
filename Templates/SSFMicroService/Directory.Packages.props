@@ -5,6 +5,9 @@
     <Authors>Sajad Khalili , sara Arzhang </Authors>
   </PropertyGroup>
   <ItemGroup>
+    <PackageVersion Include="Grpc.AspNetCore" Version="2.66.0" />
+    <PackageVersion Include="SSF.Core" Version="1.0.53" />
     <PackageVersion Include="SSF.Domain" Version="1.0.9" />
+    <PackageVersion Include="Swashbuckle.AspNetCore" Version="6.8.1" />
   </ItemGroup>
 </Project>
