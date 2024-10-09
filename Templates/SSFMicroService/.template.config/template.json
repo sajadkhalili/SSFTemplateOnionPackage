@@ -9,6 +9,52 @@
   "tags": {
     "language": "C#",
     "type": "project"
-  }
+  },
+  "sources": [
+    {
+      "source": "./",
+      "target": "./",
+      "exclude": [ "**/[Bb]in/**", "**/[Oo]bj/**" ]
+    }
+  ],
+  "primaryOutputs": [
+    {
+      "path": "src/01-Core/SSF.SSFMicroService.Domain.csproj"
+    },
+    {
+      "path": "src/01-Core/SSF.SSFMicroService.Application.csproj"
+    },
+    {
+      "path": "src/01-Core/SSF.SSFMicroService.Domain.Shared.csproj"
+    },
+
+    {
+      "path": "src/02-Infra/SSF.SSFMicroService.MongoDB.Queries.csproj"
+    },
+    {
+      "path": "src/02-Infra/SSF.SSFMicroService.MongoDB.Commands.csproj"
+    },
+    {
+      "path": "src/02-Infra/SSF.SSFMicroService.EF.Queries.csproj"
+    },
+    {
+      "path": "src/02-Infra/SSF.SSFMicroService.EF.Commands.csproj"
+    },
+
+    {
+      "path": "src/03-EndPoints/EndpointProject.csproj"
+    },
+    {
+      "path": "test/SSFMicroService.Tests/SSFMicroService.Tests.csproj"
+    }
+  ],
+  "postActions": [
+    {
+      "actionId": "E3A0CC2B-07EA-4C7B-9C55-8BAE3D1F9F25",
+      "description": "Restore NuGet packages required by this project.",
+      "manualInstructions": [ { "text": "Run 'dotnet restore'" } ],
+      "continueOnError": true
+    }
+  ]
 
 }

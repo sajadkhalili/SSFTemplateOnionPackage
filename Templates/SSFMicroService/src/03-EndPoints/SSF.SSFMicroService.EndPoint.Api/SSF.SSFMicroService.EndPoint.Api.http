@@ -1,0 +1,6 @@
+@SSF.SSFMicroService.EndPoint.Api_HostAddress = http://localhost:5052
+
+GET {{SSF.SSFMicroService.EndPoint.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
